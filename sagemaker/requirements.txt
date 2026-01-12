@@ -1,0 +1,12 @@
+# =============================================================================
+# SageMaker Training/Inference Dependencies
+# =============================================================================
+# Note: The AWS XGBoost container already includes most of these.
+# This file is for reference and custom container builds.
+# =============================================================================
+
+pandas>=1.5.0
+numpy>=1.23.0
+scikit-learn>=1.2.0
+xgboost>=1.7.0
+pyarrow>=11.0.0  # For parquet support
